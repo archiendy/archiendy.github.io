@@ -1,0 +1,15 @@
+body{
+    background-color: gray;
+}
+
+h1{
+    color: lightgreen;
+    size: 200px;
+    margin: 4px;
+}
+
+p{
+    color: white;
+    size: 40px;
+    margin: 120px;
+}

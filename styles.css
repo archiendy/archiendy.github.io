@@ -1,15 +1,22 @@
+@font-face{
+    font-family: 'Gaegu';
+    src: url(/fonts/Gaegu-Regular.ttf) format('truetype');
+}
+
 body{
     background-color: black;
+}
+
+h1, p{
+    font-family: 'Gaegu', cursive, sans-serif;
 }
 
 h1{
     color: lightgreen;
     font-size: 50px;
-    margin: 4px;
 }
 
 p{
     color: white;
     font-size: 20px;
-    margin-left: 50px;
 }

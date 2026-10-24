@@ -14,6 +14,7 @@ async function fetchData() {
     }
 
     const data = await response.json(); // Parses JSON response into JS object
+    console.log(data);object
     console.log("DATA:" + data);
   } catch (error) {
     console.error('Network or parsing error:', error); // Catches network failures
